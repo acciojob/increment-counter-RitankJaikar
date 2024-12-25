@@ -9,7 +9,7 @@ let counterValue = 0;
 // Add an event listener to the increment button
 incrementBtn.addEventListener("click", function() {
   // Show the alert with the current counter value before incrementing
-  alert("Current value before incrementing: " + counterValue);
+  alert(counterValue);
 
   // Increment the counter value
   counterValue++;
